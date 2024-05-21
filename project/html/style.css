@@ -35,7 +35,6 @@ body {
     text-decoration: underline;
   }
   
-  /* Стили для секций */
   main {
     padding: 2rem;
   }
@@ -49,7 +48,6 @@ body {
     text-align: center;
   }
   
-  /* Стили для кнопок */
   .btn {
     display: inline-block;
     padding: 0.5rem 1rem;
@@ -63,7 +61,6 @@ body {
     background: #555;
   }
   
-  /* Стили для карточек рецептов и статей */
   .recipe-grid, .article-cards {
     display: flex;
     flex-wrap: wrap;
@@ -107,7 +104,6 @@ body {
     }
   }
   
-  /* Стили для формы поиска */
   .search form {
     display: flex;
     flex-direction: column;
@@ -135,7 +131,6 @@ body {
     background: #555;
   }
   
-  /* Стили для списка результатов поиска */
   .search-results ul {
     list-style: none;
     padding: 0;
@@ -158,8 +153,7 @@ body {
   .search-results ul li p {
     color: #666;
   }
-  
-  /* Стили для контактов */
+
   .feedback form {
     display: flex;
     flex-direction: column;
@@ -188,8 +182,7 @@ body {
   .feedback button:hover {
     background: #555;
   }
-  
-  /* Стили для футера */
+
   footer {
     background: #333;
     color: #fff;
