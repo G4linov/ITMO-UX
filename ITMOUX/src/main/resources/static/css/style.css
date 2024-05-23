@@ -1,0 +1,194 @@
+/* Основные стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  /* Стили для навигации */
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin: 0 1rem;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+  main {
+    padding: 2rem;
+  }
+
+  section {
+    margin-bottom: 2rem;
+  }
+
+  h1, h2 {
+    color: #333;
+    text-align: center;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .btn:hover {
+    background: #555;
+  }
+
+  .recipe-grid, .article-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  .recipe-card, .article-card {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: calc(33% - 2rem);
+  }
+
+  .recipe-card img, .article-card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+
+  .recipe-card h3, .article-card h2 {
+    margin: 1rem 0;
+    color: #333;
+  }
+
+  .recipe-card p, .article-card p {
+    color: #666;
+  }
+
+  @media (max-width: 768px) {
+    .recipe-card, .article-card {
+      width: calc(50% - 2rem);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .recipe-card, .article-card {
+      width: 100%;
+    }
+  }
+
+  .search form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search input[type="text"] {
+    padding: 0.5rem;
+    width: 80%;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .search button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .search button:hover {
+    background: #555;
+  }
+
+  .search-results ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .search-results ul li {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+
+  .search-results ul li a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .search-results ul li p {
+    color: #666;
+  }
+
+  .feedback form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feedback input[type="text"],
+  .feedback input[type="email"],
+  .feedback textarea {
+    width: 80%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .feedback button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .feedback button:hover {
+    background: #555;
+  }
+
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
