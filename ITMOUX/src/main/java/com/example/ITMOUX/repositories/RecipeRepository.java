@@ -1,6 +1,5 @@
 package com.example.ITMOUX.repositories;
 
-import com.example.ITMOUX.models.Article;
 import com.example.ITMOUX.models.Recipe;
 import org.springframework.data.jpa.repository.JpaRepository;
 

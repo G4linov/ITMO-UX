@@ -21,4 +21,9 @@ public class ArticleService {
     public Article getById(int id){
         return articleRepository.findById(id).orElse(null);
     }
+
+    public void saveArticle(Article article){
+        log.info("Saving new: {}", article);
+        articleRepository.save(article);
+    }
 }

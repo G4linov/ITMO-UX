@@ -19,7 +19,7 @@ public class Recipe {
     private String title;
     @Column(name = "description_short")
     private String description_short;
-    @Column(name = "description_long", columnDefinition = "text")
+    @Column(name = "description_long")
     private String description_long;
     @Column(name = "cooking_time")
     private int cookingTime;
